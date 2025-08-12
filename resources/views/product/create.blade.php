@@ -29,3 +29,8 @@ value="{{ old('price') }}" />
  </div>
 </div>
 @endsection
+<div class="container text-center mt-4">
+    <h3>Product created</h3>
+    <a href="{{ route('product.index') }}" class="btn btn-primary mt-3">Go to Products</a>
+</div>
+@endsection

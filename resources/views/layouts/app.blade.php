@@ -46,6 +46,8 @@ aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navi
 
 <a class="nav-link active" href="{{ route('product.index') }}">Products</a>
 
+<a class="nav-link active" href="{{ route('product.create') }}">Create Product</a>
+
 </div>
 
 </div>
