@@ -11,7 +11,7 @@ $data2 = "About us";
 
 $description = "This is an about page ...";
 
-$author = "Developed by: Your Name";
+$author = "Developed by: Daniel Arcila";
 
 return view('home.about')->with("title", $data1)
 
